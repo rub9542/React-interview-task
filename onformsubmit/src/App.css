@@ -1,0 +1,27 @@
+.App {
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe{
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgb(71,71,71);
+  margin:20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: white;
+  align-items: center;
+  min-width: 40%;
+  padding: 100px;
+  /* height: 100px; */
+}
+.inputs{
+  border: none;
+  background-color: #ebebeb;
+  height: 50px;
+}
+
